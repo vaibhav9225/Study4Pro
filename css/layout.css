@@ -1,0 +1,112 @@
+body,
+html{
+	width:100%;
+	height:100%;
+}
+p{
+	font-size:16px;
+}
+textarea{
+	height:200px;
+}
+body{
+	background-color: #f7f7f7;
+	background-image: -moz-linear-gradient(top, #f7f7f7, #a2a2a2);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f7f7f7), to(#a2a2a2));
+	background-image: -webkit-linear-gradient(top, #f7f7f7, #a2a2a2);
+	background-image: -o-linear-gradient(top, #f7f7f7, #a2a2a2);
+	background-image: linear-gradient(to bottom, #f7f7f7, #a2a2a2);
+	background-attachment:fixed;
+}
+#wrapper{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -46px;
+}
+#wrapper .cap{
+	width:100%;
+	height:40px;
+}
+#wrapper .cusion{
+	width:100%;
+	height:46px;
+}
+#alignLeft{
+	text-align:left;
+}
+.noOverflow{
+	overflow:hidden;
+}
+#noBorder{
+	border:0px;
+}
+#nav-pull-down{
+	margin-top:3px;
+}
+#footer{
+	padding:3px;
+	margin-top:-46px;
+	background-color:#111;
+	color:#f2f2f2;
+}
+#light{
+	color:#fff;
+}
+#dark a{
+	color:#111;
+}
+#rememberMe{
+	margin-top:-2px;
+}
+#forgotPassword{
+	cursor:pointer;
+	color:#333;
+}
+#courseId{
+	width:5%;
+}
+#courseName{
+	width:95%;
+}
+#tableLinks{
+	display:none;
+}
+#tableLinks a{
+	margin-right:10px;
+}
+.table tr:hover #tableLinks{
+	display:block;
+}
+.formErrors,
+.wrong{
+	color:#f23333;
+}
+.formSuccess,
+.right{
+	color:#4db747;
+}
+.formErrors,
+.formSuccess{
+	margin-left:20px;
+}
+.right,
+.wrong{
+	display:none;
+}
+#ansHover{
+	cursor:pointer;
+	color:#f23333;
+	margin:10px;
+}
+#ansHover span{
+	display:none;
+	font-weight:bold;
+}
+#ansHover:hover span{
+	display:inline;
+}
+ul{
+margin-left:5px;
+margin-top:5px;
+}
